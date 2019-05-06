@@ -1,0 +1,66 @@
+{
+  "uid" : "3b31279acbdeb593",
+  "name" : "D:\\Practise\\jenkins_project_10\\scripts.test_login.TestLogin.test_login2",
+  "fullName" : "scripts.D:\\Practise\\jenkins_project_10\\scripts.test_login.TestLogin.test_login2",
+  "historyId" : "bf1b5cbccb4478c87afefcfc1c6edf05",
+  "time" : {
+    "start" : 1557114181428,
+    "stop" : 1557114181587,
+    "duration" : 159
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <scripts.test_login.TestLogin object at 0x00000000042763C8>\n\n    def test_login2(self):\n        print(\"test_login2\")\n>       assert 0\nE       assert 0\n\nscripts\\test_login.py:9: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "SC-201902091349"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "5240-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "scripts"
+  }, {
+    "name" : "testClass",
+    "value" : "scripts"
+  }, {
+    "name" : "testMethod",
+    "value" : "D:\\Practise\\jenkins_project_10\\scripts.test_login.TestLogin.test_login2"
+  }, {
+    "name" : "package",
+    "value" : "scripts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3b31279acbdeb593.json",
+  "parameterValues" : [ ]
+}
